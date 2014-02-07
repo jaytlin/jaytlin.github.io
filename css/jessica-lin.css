@@ -230,7 +230,55 @@ p {
 .gallery-img:hover {
   box-shadow: #ccc 1px 1px 3px -1px;
   opacity: 0.5;
+  cursor: pointer;
 }
+
+/* Modal */
+
+#modal-overlay {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width:100%;
+  height:100%;
+  text-align:center;
+  z-index: 1000;
+}
+
+#modal-box {
+  width:600px;
+  margin: 200px auto;
+  background-color: #fff;
+  padding:15px;
+  text-align:center;
+}
+
+#modal-header {
+  color: #048243;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#modal-content {
+  color:#777;
+  margin:10 auto;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#modal-link a {
+  color:#055F96;
+  margin:10 auto;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none
+}
+
+/* End modal */
+
 .center-tittle {
   text-align: center;
 }
@@ -611,6 +659,10 @@ p {
   .picture {
     margin-bottom: 15px;
   }
+
+  #modal-box {
+    width:400px;
+  }
 }
 @media (max-width: 479px) {
   h1 {
@@ -769,5 +821,8 @@ p {
   }
   .portfolio-links {
     margin-left: 0px;
+  }
+  #modal-box {
+    width:380px;
   }
 }
