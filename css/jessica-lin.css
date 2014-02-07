@@ -822,7 +822,11 @@ p {
   .portfolio-links {
     margin-left: 0px;
   }
+  #modal-overlay {
+    height:267%;
+  }
   #modal-box {
-    width:380px;
+    width:230px;
+    margin: 400px auto;
   }
 }
