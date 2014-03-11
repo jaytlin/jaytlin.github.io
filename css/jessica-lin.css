@@ -510,6 +510,9 @@ p {
   .picture {
     margin-top: 57px;
   }
+  #modal-overlay {
+    height: 600px;
+  }
 }
 @media (max-width: 767px) {
   h1 {
