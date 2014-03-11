@@ -5,7 +5,8 @@ $(document).ready(function() {
       var header = "Project: Grant Application and Crowdfunding Platform<br>For: Berkeley Public Schools Fund";
       var content = "The goal of this project was to create crowdfunding system and administrator \
       backend for the Schools Fund's grant application process. This took form of a web application \
-      that uses the Ruby on Rails framework and PostgreSQL for its backend database.";
+      that uses the Ruby on Rails framework and PostgreSQL for its backend database. This project is \
+      currently deployed for testing by the Schools Fund in the link below.";
       $('#modal-link').html("<a href='https://schoolsfund-friendsandfamily.herokuapp.com/'>Link to Project Website</a>");
     } else if ($(this).attr("id")=='pacman') {
       var header = "Project: PacMan Multi-Agent Search<br>For: Artificial Intelligence (CS 188) Project";
