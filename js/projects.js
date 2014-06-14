@@ -5,9 +5,9 @@ $(document).ready(function() {
       var header = "Project: Grant Application and Crowdfunding Platform<br>For: Berkeley Public Schools Fund";
       var content = "The goal of this project was to create crowdfunding system and administrator \
       backend for the Schools Fund's grant application process. This took form of a web application \
-      that uses the Ruby on Rails framework and PostgreSQL for its backend database. This project is \
-      currently deployed for testing by the Schools Fund in the link below.";
-      $('#modal-link').html("<a href='https://schoolsfund-friendsandfamily.herokuapp.com/'>Link to Project Website</a>");
+      that uses the Ruby on Rails framework and PostgreSQL for its backend database. This project will \
+      be deployed live for the Berkeley school district in Fall 2014, and currently in its pilot stage.";
+      $('#modal-link').html("<a href='https://schoolsfund-friendsandfamily.herokuapp.com/'>Link to Pilot Website</a>");
     } else if ($(this).attr("id")=='lisa') {
       var header = "Analyzing Log Analysis: An Empirical Study of User Log Mining";
       var content = "This paper presents an in depth study of log analysis queries performed by users \
