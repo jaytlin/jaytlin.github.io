@@ -8,12 +8,13 @@ $(document).ready(function() {
       that uses the Ruby on Rails framework and PostgreSQL for its backend database. This project is \
       currently deployed for testing by the Schools Fund in the link below.";
       $('#modal-link').html("<a href='https://schoolsfund-friendsandfamily.herokuapp.com/'>Link to Project Website</a>");
-    } else if ($(this).attr("id")=='pacman') {
-      var header = "Project: PacMan Multi-Agent Search<br>For: Artificial Intelligence (CS 188) Project";
-      var content = "The goal of this project was to create multiple search agents that \
-      would search a PacMan puzzle and solve it in the most optimal way possible. The project \
-      utilizes simple searches as well as A* search and heuristics.";
-      $('#modal-link').html("<a href='http://inst.eecs.berkeley.edu/~cs188/pacman/html/navigation.html?page=overview'>Link to Project Description</a>");
+    } else if ($(this).attr("id")=='lisa') {
+      var header = "Analyzing Log Analysis: An Empirical Study of User Log Mining";
+      var content = "This paper presents an in depth study of log analysis queries performed by users \
+      of a log analysis platform called Splunk. The purpose of the study is to quantitatively analyze \
+      the behavior of modern log analysts in order to suggest improvements for log analysis tools. The paper \
+      is currently accepted and will be presented at the LISA conference in November 2014.";
+      $('#modal-link').html("<a href='https://www.usenix.org/conference/lisa14'>Link to LISA Conference 2014 Website</a>");
     } else if ($(this).attr("id")=='retina') {
       var header = "Project: Retinal Video Tracker<br>For: Sight Enhancement Lab";
       var content = "The goal of this project was to analyze the data collected from a\
