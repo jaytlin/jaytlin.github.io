@@ -14,7 +14,7 @@ $(document).ready(function() {
       of a log analysis platform called Splunk. The purpose of the study is to quantitatively analyze \
       the behavior of modern log analysts in order to suggest improvements for log analysis tools. The paper \
       is currently accepted and will be presented at the LISA conference in November 2014.";
-      $('#modal-link').html("<a href='https://www.usenix.org/conference/lisa14'>Link to LISA Conference 2014 Website</a>");
+      $('#modal-link').html("<a href='https://www.usenix.org/conference/lisa14/conference-program/presentation/alspaugh'>Link to LISA Conference 2014 Presentation Page</a>");
     } else if ($(this).attr("id")=='retina') {
       var header = "Project: Retinal Video Tracker<br>For: Sight Enhancement Lab";
       var content = "The goal of this project was to analyze the data collected from a\
@@ -43,5 +43,5 @@ $(document).ready(function() {
     });
     $('#modal-overlay').fadeOut(400);
   });
-  
+
 });
