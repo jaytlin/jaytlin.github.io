@@ -3,18 +3,18 @@ $(document).ready(function() {
   $('.w-inline-block').click(function(){
     if ($(this).attr("id")=='bpsf') {
       var header = "Project: Grant Application and Crowdfunding Platform<br>For: Berkeley Public Schools Fund";
-      var content = "The goal of this project was to create crowdfunding system and administrator \
-      backend for the Schools Fund's grant application process. This took form of a web application \
-      that uses the Ruby on Rails framework and PostgreSQL for its backend database. This project will \
-      be deployed live for the Berkeley school district in Fall 2014, and currently in its pilot stage.";
-      $('#modal-link').html("<a href='https://schoolsfund-friendsandfamily.herokuapp.com/'>Link to Pilot Website</a>");
+      var content = "The goal of this project was to create a crowdfunding system and administrator \
+      backend for the school district's teachers. This took form of a web application that uses \
+      the Ruby on Rails framework and PostgreSQL for its backend database. This project was deployed live \
+      for the Berkeley school district in Fall 2014, and since raised over $16,000.";
+      $('#modal-link').html("<a href='https://schoolsfund-friendsandfamily.herokuapp.com/'>Link to Deployed Website</a>");
     } else if ($(this).attr("id")=='lisa') {
       var header = "Analyzing Log Analysis: An Empirical Study of User Log Mining";
       var content = "This paper presents an in depth study of log analysis queries performed by users \
       of a log analysis platform called Splunk. The purpose of the study is to quantitatively analyze \
       the behavior of modern log analysts in order to suggest improvements for log analysis tools. The paper \
-      is currently accepted and will be presented at the LISA conference in November 2014.";
-      $('#modal-link').html("<a href='https://www.usenix.org/conference/lisa14/conference-program/presentation/alspaugh'>Link to LISA Conference 2014 Presentation Page</a>");
+      was presented at the LISA 2014 conference and won Best Student Paper.";
+      $('#modal-link').html("<a href='https://www.usenix.org/conference/lisa14/conference-program/presentation/alspaugh'>Link to LISA Conference 2014 Paper</a>");
     } else if ($(this).attr("id")=='retina') {
       var header = "Project: Retinal Video Tracker<br>For: Sight Enhancement Lab";
       var content = "The goal of this project was to analyze the data collected from a\
